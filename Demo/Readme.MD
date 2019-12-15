@@ -1,0 +1,1 @@
+tslint -c tslint.json ./ts/*.ts

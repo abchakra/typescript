@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "tslint -c tslint.json ./ts/*.ts",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint *.ts",
+    "dev:watch": "nodemon -e ts --exec npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "fs": "0.0.1-security",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}
